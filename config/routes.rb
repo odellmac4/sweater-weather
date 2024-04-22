@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   # root "posts#index"
   namespace :api do
     namespace :v0 do
+      get '/book-search', to: "book_search#index"
       resources :forecast, only: [:index]
     end
   end
