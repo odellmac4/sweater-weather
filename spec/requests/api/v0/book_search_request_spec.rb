@@ -1,9 +1,9 @@
 require 'rails_helper'
 
-RSpec.describe 'Book search request' do
+RSpec.describe 'Book search request', :vcr do
   describe 'final endpoint' do
     it 'returns 5 books about a location based on a location query along with weather specs' do
-      get '/api/v1/book-search?location=denver,co&quantity=5'
+      get '/api/v0/book-search?location=denver,co&quantity=5'
 
       expect(response).to be_successful
 
