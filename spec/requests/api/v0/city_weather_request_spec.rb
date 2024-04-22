@@ -28,7 +28,8 @@ RSpec.describe 'Weather and city response', :vcr do
     expect(forecast[:attributes][:hourly_weather]).to be_an Array
     expect(forecast[:attributes][:hourly_weather].first).to be_a Hash
     expect(forecast[:attributes][:hourly_weather].first).to have_key(:time)
-    expect(forecast[:attributes][:daily_weather].first).to have_key(:temperature)
+    expect(forecast[:attributes][:daily_weather].first).to have_key(:max_temp)
+    expect(forecast[:attributes][:daily_weather].first).to have_key(:min_temp)
     end
   end
 end
