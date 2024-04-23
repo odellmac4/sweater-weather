@@ -11,6 +11,7 @@ Rails.application.routes.draw do
     namespace :v0 do
       get '/book-search', to: "book_search#index"
       resources :forecast, only: [:index]
+      resources :users, only: [:create]
     end
   end
 end
