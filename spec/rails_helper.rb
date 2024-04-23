@@ -30,6 +30,8 @@ begin
 rescue ActiveRecord::PendingMigrationError => e
   abort e.to_s.strip
 end
+
+  
 RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_paths = [
@@ -68,8 +70,16 @@ RSpec.configure do |config|
   VCR.configure do |config|
     config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
     config.hook_into :webmock
-    # config.filter_sensitive_data('DONT_SHARE_MY_TOM_TOM_KEY') { Rails.application.credentials.tomtom[:key] }
+    config.filter_sensitive_data('DONT_SHARE_MY_KEY') { Rails.application.credentials.map_quest[:key] }
+    config.filter_sensitive_data('DONT_SHARE_MY_KEY') { Rails.application.credentials.weather[:key] }
     config.default_cassette_options = { re_record_interval: 7.days }
     config.configure_rspec_metadata!
+  end
+
+  Shoulda::Matchers.configure do |config|
+    config.integrate do |with|
+      with.test_framework :rspec
+      with.library :rails
+    end
   end
 end
