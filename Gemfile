@@ -45,11 +45,12 @@ group :development, :test do
   gem "faker"
   gem "pry"
   gem "simplecov", "~> 0.22.0"
+  gem 'shoulda-matchers', '~> 5.0'
 end
 
 group :test do
   gem "webmock"
-  gem "vcr"
+  gem 'vcr', '~> 6.0'
   gem "capybara"
 end
 

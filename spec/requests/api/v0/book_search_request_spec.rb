@@ -11,10 +11,10 @@ RSpec.describe 'Book search request', :vcr do
       search = search_response[:data]
 
       expect(search).to have_key(:id)
-      expect(search[:type]).to eq(books)
-      expect(search).to have_key(:atributes)
+      expect(search[:type]).to eq("books")
+      expect(search).to have_key(:attributes)
       expect(search[:attributes]).to have_key(:destination)
-      expect(search[:attributes]).to have_key(:total_books)
+      expect(search[:attributes]).to have_key(:total_books_found)
       expect(search[:attributes]).to have_key(:forecast)
       expect(search[:attributes]).to have_key(:books)
       expect(search[:attributes][:books]).to be_an Array
