@@ -12,6 +12,7 @@ Rails.application.routes.draw do
       get '/book-search', to: "book_search#index"
       resources :forecast, only: [:index]
       resources :users, only: [:create]
+      resources :sessions, only: [:create]
     end
   end
 end
