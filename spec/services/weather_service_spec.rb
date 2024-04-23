@@ -1,20 +1,20 @@
 require 'rails_helper'
 
 RSpec.describe WeatherService, :vcr do
-  before(:each) do
-    @service = WeatherService.new
-  end
 
   it 'exists' do
-    expect(@service).to be_a WeatherService
+    service = WeatherService.new
+    expect(service).to be_a WeatherService
   end
 
   it 'establishes a connection' do
-    expect(@service.conn).to be_a Faraday::Connection
+    service = WeatherService.new
+    expect(service.conn).to be_a Faraday::Connection
   end
 
   it 'retrieves forecast based off of lat and lng' do
-    forecast = @service.forecast(48.8567, 2.3508)
+    service = WeatherService.new
+    forecast = service.forecast(48.8567, 2.3508)
     expect(forecast).to be_a Hash
 
     expect(forecast).to have_key(:current)
