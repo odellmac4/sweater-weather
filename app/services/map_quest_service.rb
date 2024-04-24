@@ -1,4 +1,12 @@
 class MapQuestService
+  def directions(origin, destination)
+    json_payload = {
+      locations: [origin, destination]
+    }.to_json
+
+    get_url("/directions/v2/optimizedroute?json=#{json_payload}")
+  end
+  
   def location_specs(location)
     get_url("/geocoding/v1/address?location=#{location}")
   end

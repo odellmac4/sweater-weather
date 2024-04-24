@@ -1,4 +1,622 @@
 module TestData
+    def self.road_trip_data
+        data = {
+        "route": {
+        "sessionId": "AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car",
+        "realTime": 16228,
+        "distance": 296.2841,
+        "time": 15639,
+        "formattedTime": "04:20:39",
+        "hasHighway": true,
+        "hasTollRoad": true,
+        "hasBridge": true,
+        "hasSeasonalClosure": false,
+        "hasTunnel": false,
+        "hasFerry": false,
+        "hasUnpaved": false,
+        "hasTimedRestriction": false,
+        "hasCountryCross": false,
+        "legs": [
+            {
+                "index": 0,
+                "hasTollRoad": true,
+                "hasHighway": true,
+                "hasBridge": true,
+                "hasUnpaved": false,
+                "hasTunnel": false,
+                "hasSeasonalClosure": false,
+                "hasFerry": false,
+                "hasCountryCross": false,
+                "hasTimedRestriction": false,
+                "distance": 296.2841,
+                "time": 16228,
+                "formattedTime": "04:30:28",
+                "origIndex": 0,
+                "origNarrative": "",
+                "destIndex": 0,
+                "destNarrative": "",
+                "maneuvers": [
+                    {
+                        "index": 0,
+                        "distance": 0.2293,
+                        "narrative": "Head toward Broadway St on Gilbert Ave (US-22). Go for 0.2 mi.",
+                        "time": 36,
+                        "direction": 6,
+                        "directionName": "Southwest",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:00:36",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.107132,
+                            "lng": -84.504134
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "US-22",
+                            "OH-3",
+                            "Gilbert Ave"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=39.107132,-84.504134|marker-1||39.10536000000002,-84.50725|marker-2||&center=39.10624600000001,-84.505692&defaultMarker=none&zoom=15&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 1,
+                        "distance": 0.1821,
+                        "narrative": "Continue on 8th St E (US-22 W) toward US-22/OH-3. Go for 0.2 mi.",
+                        "time": 28,
+                        "direction": 7,
+                        "directionName": "West",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:00:28",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.10536000000002,
+                            "lng": -84.50725
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "US-22",
+                            "OH-3",
+                            "8th St E",
+                            "E 8th St"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=39.10536000000002,-84.50725|marker-2||39.104910000000025,-84.51059000000001|marker-3||&center=39.10513500000002,-84.50892&defaultMarker=none&zoom=15&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 2,
+                        "distance": 0.0677,
+                        "narrative": "Turn right onto Main St (US-22 W). Go for 358 ft.",
+                        "time": 33,
+                        "direction": 1,
+                        "directionName": "North",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:00:33",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.104910000000025,
+                            "lng": -84.51059000000001
+                        },
+                        "turnType": 2,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "US-22",
+                            "OH-3",
+                            "Main St"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=39.104910000000025,-84.51059000000001|marker-3||39.105870000000024,-84.51082|marker-4||&center=39.10539000000003,-84.510705&defaultMarker=none&zoom=16&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 3,
+                        "distance": 0.6885,
+                        "narrative": "Turn left onto 9th St E (US-22 W). Go for 0.7 mi.",
+                        "time": 112,
+                        "direction": 7,
+                        "directionName": "West",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:01:52",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.105870000000024,
+                            "lng": -84.51082
+                        },
+                        "turnType": 6,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "US-22",
+                            "OH-3",
+                            "9th St E",
+                            "E 9th St",
+                            "9th St W",
+                            "W 9th St",
+                            "OH-264"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=39.105870000000024,-84.51082|marker-4||39.103790000000046,-84.52332|marker-5||&center=39.104830000000035,-84.51706999999999&defaultMarker=none&zoom=13&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 4,
+                        "distance": 0.0255,
+                        "narrative": "Continue on 8th St Viad. Go for 135 ft.",
+                        "time": 4,
+                        "direction": 7,
+                        "directionName": "West",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:00:04",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.103790000000046,
+                            "lng": -84.52332
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "8th St Viad"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=39.103790000000046,-84.52332|marker-5||39.10371000000005,-84.52378|marker-6||&center=39.10375000000005,-84.52355&defaultMarker=none&zoom=16&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 5,
+                        "distance": 2.9733,
+                        "narrative": "Turn slightly right and take ramp onto I-75 N toward Dayton. Go for 3.0 mi.",
+                        "time": 205,
+                        "direction": 1,
+                        "directionName": "North",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:03:25",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.10371000000005,
+                            "lng": -84.52378
+                        },
+                        "turnType": 12,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "I-75",
+                            "US-52"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=39.10371000000005,-84.52378|marker-6||39.14188000000002,-84.53500999999997|marker-7||&center=39.12279500000004,-84.529395&defaultMarker=none&zoom=11&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 6,
+                        "distance": 13.5782,
+                        "narrative": "Take exit 4 toward US-52 W/US-27 N/Indianapolis onto I-74 W. Go for 13.6 mi.",
+                        "time": 785,
+                        "direction": 7,
+                        "directionName": "West",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:13:05",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.14188000000002,
+                            "lng": -84.53500999999997
+                        },
+                        "turnType": 14,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "I-74",
+                            "US-27",
+                            "US-52",
+                            "I-275"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=39.14188000000002,-84.53500999999997|marker-7||39.215180000000124,-84.72827999999998|marker-8||&center=39.17853000000007,-84.63164499999998&defaultMarker=none&zoom=9&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 7,
+                        "distance": 6.5654,
+                        "narrative": "Continue on I-74 W toward US-52 W/Indianapolis. Go for 6.6 mi.",
+                        "time": 359,
+                        "direction": 2,
+                        "directionName": "Northwest",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:05:59",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.215180000000124,
+                            "lng": -84.72827999999998
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "I-74",
+                            "US-52"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=39.215180000000124,-84.72827999999998|marker-8||39.27663000000012,-84.81977999999995|marker-9||&center=39.24590500000012,-84.77402999999997&defaultMarker=none&zoom=10&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 8,
+                        "distance": 77.4999,
+                        "narrative": "Continue on I-74 W. Go for 77.5 mi.",
+                        "time": 3975,
+                        "direction": 7,
+                        "directionName": "West",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "01:06:15",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.27663000000012,
+                            "lng": -84.81977999999995
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "I-74",
+                            "US-52",
+                            "US-421"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=39.27663000000012,-84.81977999999995|marker-9||39.732400000000084,-86.03553000000029|marker-10||&center=39.5045150000001,-85.42765500000013&defaultMarker=none&zoom=6&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 9,
+                        "distance": 23.6923,
+                        "narrative": "Take the exit onto I-465 N. Go for 23.7 mi.",
+                        "time": 1341,
+                        "direction": 2,
+                        "directionName": "Northwest",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:22:21",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.732400000000084,
+                            "lng": -86.03553000000029
+                        },
+                        "turnType": 14,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "I-465",
+                            "US-31",
+                            "US-40",
+                            "US-52",
+                            "US-421",
+                            "IN-37"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=39.732400000000084,-86.03553000000029|marker-10||39.92719000000002,-86.2567600000003|marker-11||&center=39.82979500000005,-86.1461450000003&defaultMarker=none&zoom=8&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 10,
+                        "distance": 4.802,
+                        "narrative": "Continue on I-865 W toward Chicago/I-65 N. Go for 4.8 mi.",
+                        "time": 260,
+                        "direction": 7,
+                        "directionName": "West",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:04:20",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.92719000000002,
+                            "lng": -86.2567600000003
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "I-865",
+                            "US-52"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=39.92719000000002,-86.2567600000003|marker-11||39.93661000000004,-86.34369000000038|marker-12||&center=39.93190000000003,-86.30022500000034&defaultMarker=none&zoom=10&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 11,
+                        "distance": 132.4826,
+                        "narrative": "Continue on I-65 N. Go for 132 mi.",
+                        "time": 6961,
+                        "direction": 2,
+                        "directionName": "Northwest",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "01:56:01",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 39.93661000000004,
+                            "lng": -86.34369000000038
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "I-65",
+                            "US-52",
+                            "IN-25",
+                            "Casimir Pulaski Memorial Hwy"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=39.93661000000004,-86.34369000000038|marker-12||41.590790000000005,-87.30671000000059|marker-13||&center=40.76370000000002,-86.82520000000048&defaultMarker=none&zoom=6&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 12,
+                        "distance": 17.4419,
+                        "narrative": "Take exit 262 toward I-90-TOLL/Illinois/Ohio/Chicago onto I-90 W (Indiana East-West Toll Rd). Go for 17.4 mi.",
+                        "time": 1027,
+                        "direction": 2,
+                        "directionName": "Northwest",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:17:07",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 41.590790000000005,
+                            "lng": -87.30671000000059
+                        },
+                        "turnType": 14,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "I-90",
+                            "Indiana East-West Toll Rd",
+                            "Indiana Toll Rd"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=41.590790000000005,-87.30671000000059|marker-13||41.70318000000005,-87.52450000000059|marker-14||&center=41.64698500000003,-87.4156050000006&defaultMarker=none&zoom=9&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 13,
+                        "distance": 14.6501,
+                        "narrative": "Continue on I-90 W (Chicago Skwy W). Go for 14.7 mi.",
+                        "time": 865,
+                        "direction": 2,
+                        "directionName": "Northwest",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:14:25",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 41.70318000000005,
+                            "lng": -87.52450000000059
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "I-90",
+                            "Chicago Skwy W",
+                            "I-94",
+                            "Dan Ryan Express Lane",
+                            "I-90 Express Lane",
+                            "I-94 Express Lane",
+                            "Dan Ryan Express Ln",
+                            "Dan Ryan Expy W"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=41.70318000000005,-87.52450000000059|marker-14||41.87362000000013,-87.64486000000075|marker-15||&center=41.788400000000095,-87.58468000000067&defaultMarker=none&zoom=9&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 14,
+                        "distance": 0.6785,
+                        "narrative": "Take the exit toward Downtown Exits/Washington Blvd East. Go for 0.7 mi.",
+                        "time": 78,
+                        "direction": 1,
+                        "directionName": "North",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:01:18",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 41.87362000000013,
+                            "lng": -87.64486000000075
+                        },
+                        "turnType": 14,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=41.87362000000013,-87.64486000000075|marker-15||41.883140000000154,-87.64523000000077|marker-16||&center=41.87838000000014,-87.64504500000075&defaultMarker=none&zoom=13&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 15,
+                        "distance": 0.2821,
+                        "narrative": "Turn right onto W Washington Blvd. Go for 0.3 mi.",
+                        "time": 58,
+                        "direction": 8,
+                        "directionName": "East",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:00:58",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 41.883140000000154,
+                            "lng": -87.64523000000077
+                        },
+                        "turnType": 2,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "W Washington Blvd"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=41.883140000000154,-87.64523000000077|marker-16||41.88320000000016,-87.63976000000076|marker-17||&center=41.883170000000156,-87.64249500000076&defaultMarker=none&zoom=14&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 16,
+                        "distance": 0.3766,
+                        "narrative": "Continue on W Washington St. Go for 0.4 mi.",
+                        "time": 86,
+                        "direction": 8,
+                        "directionName": "East",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:01:26",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 41.88320000000016,
+                            "lng": -87.63976000000076
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "W Washington St"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=41.88320000000016,-87.63976000000076|marker-17||41.88325000000017,-87.63246000000078|marker-18||&center=41.88322500000017,-87.63611000000077&defaultMarker=none&zoom=14&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 17,
+                        "distance": 0.0684,
+                        "narrative": "Turn left onto N LaSalle St. Go for 361 ft.",
+                        "time": 15,
+                        "direction": 1,
+                        "directionName": "North",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:00:15",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 41.88325000000017,
+                            "lng": -87.63246000000078
+                        },
+                        "turnType": 6,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": [
+                            "N LaSalle St"
+                        ],
+                        "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=88GZb1yx5sDGaQSI2Pn3Zoj3Wr4IfdoU&size=225,160&locations=41.88325000000017,-87.63246000000078|marker-18||41.88425000000017,-87.63245500000077|marker-19||&center=41.88375000000017,-87.63245750000078&defaultMarker=none&zoom=16&session=AJ0A_v___wUAAQDbAAAAeNpjuM3AwMTAwMCekVqUapWcG2H_ThzIZdBbuLeFi1e67oVzlM35aBj9ofaFcz6QZsAB_gMBzKRkqV3SILGt7ZnLGHgv_1_n2Hb6RCyMngGkW4E0PpNAtNe0hYrrGIEMW0YmlxUCrR4Bik0sQC5IiMGBgYOBlYGBBaLFAaq1gQNIsDQIsGkLAAAbSjfLauCAxQ:car"
+                    },
+                    {
+                        "index": 18,
+                        "distance": 0,
+                        "narrative": "Arrive at N LaSalle St.",
+                        "time": 0,
+                        "direction": 0,
+                        "directionName": "None",
+                        "signs": [],
+                        "maneuverNotes": [],
+                        "formattedTime": "00:00:00",
+                        "transportMode": "car",
+                        "startPoint": {
+                            "lat": 41.88425000000017,
+                            "lng": -87.63245500000077
+                        },
+                        "turnType": 0,
+                        "attributes": 0,
+                        "iconUrl": "",
+                        "streets": []
+                    }
+                ]
+            }
+        ],
+        "options": {
+            "routeType": "FASTEST",
+            "narrativeType": "text",
+            "enhancedNarrative": false,
+            "walkingSpeed": -1,
+            "highwayEfficiency": 22,
+            "avoids": false,
+            "generalize": -1,
+            "shapeFormat": "raw",
+            "unit": "M",
+            "locale": "en_US",
+            "useTraffic": false,
+            "timeType": 0,
+            "dateType": 0,
+            "doReverseGeocode": true,
+            "manMaps": true,
+            "tollCost": false,
+            "sideOfStreetDisplay": true
+        },
+        "boundingBox": {
+            "ul": {
+                "lat": 41.88425000000017,
+                "lng": -87.64538000000077
+            },
+            "lr": {
+                "lat": 39.10371000000005,
+                "lng": -84.504134
+            }
+        },
+        "name": "I-65 and I-74",
+        "locations": [
+            {
+                "street": "",
+                "adminArea6": "",
+                "adminArea6Type": "Neighborhood",
+                "adminArea5": "Cincinnati",
+                "adminArea5Type": "City",
+                "adminArea4": "Hamilton",
+                "adminArea4Type": "County",
+                "adminArea3": "OH",
+                "adminArea3Type": "State",
+                "adminArea1": "US",
+                "adminArea1Type": "Country",
+                "postalCode": "",
+                "geocodeQualityCode": "A5XBX",
+                "geocodeQuality": "CITY",
+                "dragPoint": false,
+                "sideOfStreet": "N",
+                "linkId": "0",
+                "unknownInput": "",
+                "type": "s",
+                "latLng": {
+                    "lat": 39.10713,
+                    "lng": -84.50413
+                },
+                "displayLatLng": {
+                    "lat": 39.10713,
+                    "lng": -84.50413
+                },
+                "mapUrl": ""
+            },
+            {
+                "street": "",
+                "adminArea6": "",
+                "adminArea6Type": "Neighborhood",
+                "adminArea5": "Chicago",
+                "adminArea5Type": "City",
+                "adminArea4": "Cook",
+                "adminArea4Type": "County",
+                "adminArea3": "IL",
+                "adminArea3Type": "State",
+                "adminArea1": "US",
+                "adminArea1Type": "Country",
+                "postalCode": "",
+                "geocodeQualityCode": "A5XAX",
+                "geocodeQuality": "CITY",
+                "dragPoint": false,
+                "sideOfStreet": "N",
+                "linkId": "0",
+                "unknownInput": "",
+                "type": "s",
+                "latLng": {
+                    "lat": 41.88425,
+                    "lng": -87.63245
+                },
+                "displayLatLng": {
+                    "lat": 41.88425,
+                    "lng": -87.63245
+                },
+                "mapUrl": ""
+            }
+        ],
+        "locationSequence": [
+            0,
+            1
+        ]
+    },
+    "info": {
+        "statuscode": 0,
+        "copyright": {
+            "text": "© 2024 MapQuest, Inc.",
+            "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+            "imageAltText": "© 2024 MapQuest, Inc."
+        },
+        "messages": []
+            }
+        }
+    end
   def self.location_data
     data = {
     "info": {
