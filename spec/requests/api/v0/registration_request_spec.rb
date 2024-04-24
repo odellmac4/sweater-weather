@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'User registration' do
   describe 'endpoint 2' do
 
-    it 'registers a user', :vcr do
+    it 'registers a user' do
       user_params = {
         "email": "whatever@example.com",
         "password": "password",

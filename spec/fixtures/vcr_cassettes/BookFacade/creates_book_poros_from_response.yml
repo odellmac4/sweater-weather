@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Tue, 23 Apr 2024 20:02:30 GMT
+      - Wed, 24 Apr 2024 04:11:16 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,7 +35,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.123 TT 0 0.155"'
+      - '"SR 1 0.132 TT 0 0.157"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -3870,7 +3870,7 @@ http_interactions:
             "q": "denver,co",
             "offset": null
         }
-  recorded_at: Tue, 23 Apr 2024 20:02:30 GMT
+  recorded_at: Wed, 24 Apr 2024 04:11:16 GMT
 - request:
     method: get
     uri: https://openlibrary.org/search.json?limit=5&q=denver,co
@@ -3892,7 +3892,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Tue, 23 Apr 2024 20:02:30 GMT
+      - Wed, 24 Apr 2024 04:11:17 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -3906,7 +3906,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.058 TT 0 0.088"'
+      - '"SR 1 0.032 TT 0 0.066"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -7741,5 +7741,5 @@ http_interactions:
             "q": "denver,co",
             "offset": null
         }
-  recorded_at: Tue, 23 Apr 2024 20:02:30 GMT
+  recorded_at: Wed, 24 Apr 2024 04:11:17 GMT
 recorded_with: VCR 6.2.0
