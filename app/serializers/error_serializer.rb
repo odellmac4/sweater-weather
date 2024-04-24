@@ -7,7 +7,7 @@ class ErrorSerializer
     {
       errors: [
         {
-          detail: @exception.message
+          detail: display_message
         }
       ]
     }
@@ -21,5 +21,13 @@ class ErrorSerializer
         }
       ]
     }
+  end
+
+  def display_message
+    if @exception.class != RoadTrip
+      @exception
+    else
+      @exception.message
+    end
   end
 end
